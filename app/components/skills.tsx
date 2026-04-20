@@ -2,9 +2,18 @@ import { FadeIn } from "./fade-in";
 import { Section } from "./section";
 
 const skillData = {
-  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML/CSS"],
-  backend: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"],
+  frontend: [
+    "React",
+    "Next.js",
+    "Svelte",
+    "SvelteKit",
+    "TypeScript",
+    "Tailwind CSS",
+    "HTML/CSS",
+  ],
+  backend: ["Python", "PostgreSQL", "REST APIs"],
   tools: ["Git", "Docker", "Linux", "CI/CD", "Figma"],
+  automation: ["Python scripting", "C#", "WPF", ".NET / WinForms", "CLI Tools"],
 };
 
 type SkillsProps = {
@@ -14,6 +23,7 @@ type SkillsProps = {
       frontend: string;
       backend: string;
       tools: string;
+      automation: string;
     };
   };
 };
@@ -31,6 +41,11 @@ export function Skills({ dict }: SkillsProps) {
       items: skillData.backend,
     },
     { key: "tools", label: dict.categories.tools, items: skillData.tools },
+    {
+      key: "automation",
+      label: dict.categories.automation,
+      items: skillData.automation,
+    },
   ];
 
   return (

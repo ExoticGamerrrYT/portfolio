@@ -10,7 +10,7 @@ type Project = {
   description: string;
   tags: string[];
   github: string;
-  demo: string;
+  demo?: string;
 };
 
 type ProjectsProps = {
@@ -59,15 +59,17 @@ export function Projects({ dict }: ProjectsProps) {
                   <FaGithub size={14} />
                   {dict.viewCode}
                 </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
-                >
-                  <ExternalLink size={14} />
-                  {dict.viewDemo}
-                </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+                  >
+                    <ExternalLink size={14} />
+                    {dict.viewDemo}
+                  </a>
+                )}
               </div>
             </article>
           </FadeIn>

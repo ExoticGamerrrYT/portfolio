@@ -18,7 +18,7 @@ export const es: Dictionary = {
   about: {
     title: "Sobre mí",
     p1: "Soy un desarrollador apasionado que disfruta creando soluciones elegantes para problemas complejos. Con un enfoque en tecnologías web modernas, creo aplicaciones eficientes y accesibles.",
-    p2: "Cuando no estoy programando, me encontrarás explorando nuevas tecnologías, contribuyendo al código abierto o aprendiendo algo nuevo.",
+    p2: "También disfruto construyendo herramientas y automatizando flujos de trabajo — desde aplicaciones nativas de Windows hasta scripts que resuelven tareas repetitivas que van surgiendo en el día a día.",
   },
   projects: {
     title: "Proyectos",
@@ -26,28 +26,54 @@ export const es: Dictionary = {
     viewDemo: "Demo",
     items: [
       {
-        title: "Proyecto Uno",
+        title: "Adobe Leftovers Remover",
         description:
-          "Una aplicación web moderna construida con Next.js y TypeScript. Incluye sincronización de datos en tiempo real y diseño responsive.",
-        tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-        github: "#",
-        demo: "#",
+          "Utilidad de escritorio que detecta y elimina archivos, carpetas y entradas de registro que los desinstaladores de Adobe dejan atrás, manteniendo el sistema limpio.",
+        tags: ["C++", "Qt"],
+        github: "https://github.com/ExoticGamerrrYT/adobe-leftovers-remover",
       },
       {
-        title: "Proyecto Dos",
+        title: "YimMenu v2 Launchpad",
         description:
-          "Servicio API RESTful con autenticación, limitación de peticiones y documentación completa. Construido para escalar.",
-        tags: ["Node.js", "PostgreSQL", "Docker"],
-        github: "#",
-        demo: "#",
+          "Lanzador WPF para YimMenu v2 con una interfaz limpia para gestionar e inyectar el mod menu en GTA V de forma sencilla.",
+        tags: ["C#", "WPF"],
+        github: "https://github.com/ExoticGamerrrYT/yimmenuv2-launchpad",
       },
       {
-        title: "Proyecto Tres",
+        title: "Plus Ultra Shop v3",
         description:
-          "Aplicación móvil multiplataforma con arquitectura offline-first y animaciones fluidas.",
-        tags: ["React Native", "SQLite", "Expo"],
-        github: "#",
-        demo: "#",
+          "Tercera iteración de una tienda online con interfaz moderna, experiencia de compra fluida y tipado estricto en toda la aplicación.",
+        tags: ["SvelteKit", "TypeScript"],
+        github: "https://github.com/ExoticGamerrrYT/plus-ultra-shop-v3",
+      },
+      {
+        title: "Spotify Update Blocker",
+        description:
+          "Herramienta ligera que impide que Spotify se actualice automáticamente, permitiéndote quedarte en tu versión preferida sin intervención manual.",
+        tags: ["C#"],
+        github: "https://github.com/ExoticGamerrrYT/SpotifyUpdateBlocker",
+      },
+      {
+        title: "Paper Server Manager",
+        description:
+          "Aplicación de escritorio para gestionar servidores de Minecraft Paper con controles para iniciar, detener y monitorizar instancias desde una sola ventana.",
+        tags: ["Python", "Qt"],
+        github: "https://github.com/ExoticGamerrrYT/paper-server-manager",
+      },
+      {
+        title: "YouTube Video Downloader",
+        description:
+          "App de escritorio con Qt para descargar vídeos de YouTube con selección de formato y calidad, basada en yt-dlp para descargas rápidas y fiables.",
+        tags: ["Python", "Qt"],
+        github: "https://github.com/ExoticGamerrrYT/youtube-video-downloader",
+      },
+      {
+        title: "Fortnite Resolution Changer",
+        description:
+          "Herramienta nativa para cambiar al instante la resolución de Fortnite sin tener que entrar al menú de configuración del juego, ahorrando tiempo entre sesiones.",
+        tags: ["C++"],
+        github:
+          "https://github.com/ExoticGamerrrYT/Fortnite-Resolution-Changer",
       },
     ],
   },
@@ -57,6 +83,7 @@ export const es: Dictionary = {
       frontend: "Frontend",
       backend: "Backend",
       tools: "Herramientas y otros",
+      automation: "Automatización y Windows",
     },
   },
   contact: {

@@ -67,6 +67,12 @@ export function Hero({ dict }: HeroProps) {
         >
           <a
             href="#projects"
+            onClick={(e) => {
+              e.preventDefault();
+              document
+                .getElementById("projects")
+                ?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
             className="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
           >
             {dict.cta}
@@ -75,7 +81,7 @@ export function Hero({ dict }: HeroProps) {
 
           <div className="flex items-center gap-1">
             <a
-              href="https://github.com"
+              href="https://github.com/ExoticGamerrrYT"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full p-3 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
@@ -93,7 +99,7 @@ export function Hero({ dict }: HeroProps) {
               <FaLinkedinIn size={20} />
             </a>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:calfaromolina5@gmail.com"
               className="rounded-full p-3 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
               aria-label="Email"
             >

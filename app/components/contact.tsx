@@ -28,7 +28,7 @@ export function Contact({ dict }: ContactProps) {
         </FadeIn>
         <FadeIn delay={0.2}>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:calfaromolina5@gmail.com"
             className="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-8 py-4 font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
           >
             <Mail size={18} />

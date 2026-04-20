@@ -85,7 +85,10 @@ export function Header({ lang, nav }: HeaderProps) {
               className="relative cursor-pointer rounded-full p-2 text-zinc-600 transition-colors hover:bg-zinc-100 md:hidden dark:text-zinc-400 dark:hover:bg-zinc-800"
               aria-label="Toggle menu"
             >
-              <span className="gap-5px flex h-4.5 w-4.5 flex-col items-center justify-center">
+              <span
+                className="flex h-4.5 w-4.5 flex-col items-center justify-center"
+                style={{ gap: "5px" }}
+              >
                 <span
                   className="block h-0.5 w-3 rounded-full bg-current transition-all duration-300 ease-out"
                   style={{

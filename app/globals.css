@@ -25,6 +25,43 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Scrollbar */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #d4d4d8 transparent;
+  }
+
+  :is(.dark) * {
+    scrollbar-color: #3f3f46 transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d8;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a1a1aa;
+  }
+
+  :is(.dark) ::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+  }
+
+  :is(.dark) ::-webkit-scrollbar-thumb:hover {
+    background: #52525b;
+  }
+}
+
 ::selection {
   background-color: var(--color-accent-200);
   color: var(--color-accent-900);
