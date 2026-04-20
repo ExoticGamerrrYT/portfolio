@@ -6,11 +6,13 @@ type Theme = "light" | "dark";
 
 type ThemeContextValue = {
   theme: Theme;
+  mounted: boolean;
   toggleTheme: () => void;
 };
 
 const ThemeContext = createContext<ThemeContextValue>({
   theme: "light",
+  mounted: false,
   toggleTheme: () => {},
 });
 
@@ -42,5 +44,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
   };
 
-  return <ThemeContext value={{ theme, toggleTheme }}>{children}</ThemeContext>;
+  return (
+    <ThemeContext value={{ theme, mounted, toggleTheme }}>
+      {children}
+    </ThemeContext>
+  );
 }
