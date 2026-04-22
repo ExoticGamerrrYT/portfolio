@@ -22,13 +22,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Scripts
 
-| Command | Description |
-|---|---|
-| `bun dev` | Start development server |
-| `bun build` | Build for production |
-| `bun start` | Start production server |
-| `bun lint` | Run ESLint |
-| `bun format` | Format with Prettier |
+| Command      | Description              |
+| ------------ | ------------------------ |
+| `bun dev`    | Start development server |
+| `bun build`  | Build for production     |
+| `bun start`  | Start production server  |
+| `bun lint`   | Run ESLint               |
+| `bun format` | Format with Prettier     |
 
 ## Structure
 
