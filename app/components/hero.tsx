@@ -89,7 +89,7 @@ export function Hero({ dict }: HeroProps) {
             >
               <FaGithub size={20} />
             </a>
-            <a
+            {/* <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -97,7 +97,7 @@ export function Hero({ dict }: HeroProps) {
               aria-label="LinkedIn"
             >
               <FaLinkedinIn size={20} />
-            </a>
+            </a> */}
             <a
               href="mailto:calfaromolina5@gmail.com"
               className="rounded-full p-3 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
