@@ -59,13 +59,6 @@ export const en = {
         github: "https://github.com/ExoticGamerrrYT/paper-server-manager",
       },
       {
-        title: "YouTube Video Downloader",
-        description:
-          "Qt-based desktop app to download YouTube videos with format and quality selection, built on top of yt-dlp for reliable and fast downloads.",
-        tags: ["Python", "Qt"],
-        github: "https://github.com/ExoticGamerrrYT/youtube-video-downloader",
-      },
-      {
         title: "Fortnite Resolution Changer",
         description:
           "Native tool that lets you instantly switch Fortnite's resolution without navigating the in-game settings menu, saving time between sessions.",

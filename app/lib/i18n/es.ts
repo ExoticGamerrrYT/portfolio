@@ -61,13 +61,6 @@ export const es: Dictionary = {
         github: "https://github.com/ExoticGamerrrYT/paper-server-manager",
       },
       {
-        title: "YouTube Video Downloader",
-        description:
-          "App de escritorio con Qt para descargar vídeos de YouTube con selección de formato y calidad, basada en yt-dlp para descargas rápidas y fiables.",
-        tags: ["Python", "Qt"],
-        github: "https://github.com/ExoticGamerrrYT/youtube-video-downloader",
-      },
-      {
         title: "Fortnite Resolution Changer",
         description:
           "Herramienta nativa para cambiar al instante la resolución de Fortnite sin tener que entrar al menú de configuración del juego, ahorrando tiempo entre sesiones.",
